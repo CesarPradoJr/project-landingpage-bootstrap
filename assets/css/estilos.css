@@ -1,0 +1,74 @@
+header h1 {
+    margin: 0px;
+}
+html, body {
+    height: 100%;
+
+}
+header {
+    background-image: url(/assets/img/castelo.jpg);
+    height: 100%;
+    background-size: cover;
+    background-position: top center;
+}
+.topCasaFina-banner {
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 15px;
+    width: 70%;
+    border-radius: 8px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: .3s;
+}
+#paineis-sobre {
+    margin-top: 20px;
+}
+.titulo-depoimento-clientes{
+    background: rgb(31, 131, 245);
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 0px;
+}
+.contato-video{
+    margin: 0px;
+}
+.grupo-select,
+.grupo-radio {
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+}
+.grupo-radio .radio:first-child {
+    margin-top: 0px;
+}
+footer {
+    background: #333;
+    color: #fff;
+    padding: 20px;
+    margin-top: 10px;
+}
+footer address:last-child{
+    margin-bottom: 0px;
+}
+
+@media (min-width: 768px){
+    #paineis-sobre {
+        margin-top: 0px;
+    }
+}
+
+@media (min-width: 992px){
+    .topCasaFina-banner {
+        left: 0;
+        transform: translate(0, -80%);
+        width: 50%;
+    }
+    .topCasaFina-bannerWrapper {
+        position: relative;
+        height: 100%;
+    }
+}
